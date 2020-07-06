@@ -1,0 +1,12 @@
+{
+    "name": "Democratized Youtube",
+    "version": "1.0",
+    "description": "An Open-Source alternative to the Youtube Algorithm",
+    "content_scripts": [
+	    {
+	      "matches": ["*://*.youtube.com/"],
+	      "js": ["inject.js"]
+	    }
+	],
+    "manifest_version": 2
+  }
